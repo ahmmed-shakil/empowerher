@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  /* --primary: #6E1FEA; */
+  --primary: #870CC0;
+  /* --hover: #8141e9; */
+  --hover: #601184;
+  --secondary: #141414;
+  --third: #FEF6F7;
+  --last: #FFFDF7;
+  --gradient: linear-gradient(to right, var(--primary), var(--hover));
+  /* --primary: #00CF5D; */
+}
+
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-white
+}
+.nav-item{
+  @apply hover:text-primary py-2 px-3 h-10 rounded-lg cursor-pointer hover:border-none transition-colors delay-200
+}
+
+.btn-primary{
+  @apply bg-primary text-slate-50 py-3 rounded-lg hover:bg-hover transition-all duration-300 ease-in-out
+}
+
+.btn-secondary{
+  @apply bg-slate-300 text-primary py-3 rounded-lg hover:bg-slate-400 transition-all duration-300 ease-in-out
+}
+
+p{
+  @apply my-2
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #FF6B6B, #6B47FF);
+  color: white; /* Set the text color to contrast with the background */
+  padding: 100px; /* Adjust padding as needed */
+  text-align: center;
+}
+
+
+.gradient-background {
+  background: linear-gradient(135deg, #FF6B6B, #6B47FF);
+}
+
+.gradient{
+  color: linear-gradient(135deg, #FF6B6B, #6B47FF);
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

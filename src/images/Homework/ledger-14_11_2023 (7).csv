@@ -1,0 +1,7 @@
+Passenger,Phone,Token,BookingID,Source,Destination,Fare,Toll,Additional Charges,Travel Date,Travel Time,Booking Date,Taxi Type,Carrier,Assigned Taxi,Assigned Driver,Vendor
+dsad  ,4214234234,TX000020,TX1411021,Shri Kripalu Dham,Test,10,120,200,14/11,06:00 AM,14/11,3P + 1D car Ac,Yes,undefined (undefined),undefined (undefined),undefined (undefined)
+Rahul Dravid,2523534534,TX000018,undefined,Shri Kripalu Dham,Test,10,120,,14/11,07:00 AM,14/11,3P + 1D car Ac,No,undefined (undefined),undefined (undefined),undefined (undefined)
+dsad  ,4214234234,TX000020,TX1411021,Shri Kripalu Dham,Test,10,120,200,14/11,06:00 AM,14/11,3P + 1D car Ac,Yes,undefined (undefined),undefined (undefined),undefined (undefined)
+Shreyash Ayer,2143214234,TX000017,undefined,Shri Kripalu Dham,Test,10,120,,14/11,11:00 AM,14/11,3P + 1D car Ac,No,undefined (undefined),undefined (undefined),undefined (undefined)
+Virat Kohli,2342342343,TX000014,undefined,Shri Kripalu Dham,Test,10,120,,14/11,05:00 PM,14/11,3P + 1D car Ac,No,undefined (undefined),undefined (undefined),undefined (undefined)
+Shunil Shetty,2142342342,TX000015,undefined,Shri Kripalu Dham,Test,10,120,,14/11,04:00 PM,14/11,3P + 1D car Ac,No,undefined (undefined),undefined (undefined),undefined (undefined)
