@@ -18,7 +18,7 @@ const About = () => {
           <div className=" space-y-8 w-full md:w-2/3">
             <h3 className=" text-6xl font-semibold">About us</h3>
             <p className=" text-2xl" style={gradientStyle}>
-              Welcome to MyEmpowerHers, an online tutoring company dedicated to
+              Welcome to EmpowerHer, an online tutoring company dedicated to
               helping students achieve academic success.
             </p>
             <p className=" text-primary text-lg font-light">
@@ -29,7 +29,7 @@ const About = () => {
               timeframe.
             </p>
             <p className=" text-primary text-lg font-light">
-              At MyEmpowerHers, we understand the challenges that students face
+              At EmpowerHer, we understand the challenges that students face
               when it comes to completing assignments and achieving academic
               success. We aim to provide a solution that not only helps students
               complete their assignments but also helps them understand the

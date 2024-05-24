@@ -49,8 +49,8 @@ const Missions = () => {
             </p>
 
             <p className=" pt-28 md:pt-0" style={{ marginTop: "-100px" }}>
-              <span className=" text-2xl font-semibold">S</span>o, myEmpowerHers
-              is the only place to turn if you're looking for trustworthy online
+              <span className=" text-2xl font-semibold">S</span>o, EmpowerHer is
+              the only place to turn if you're looking for trustworthy online
               tutoring services. Our knowledgeable tutors are available to
               support your academic success and help you meet your academic
               objectives. Contact us!
