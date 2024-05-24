@@ -6,7 +6,7 @@ import { gradientStyle } from "../../../../../utils/gradientStyle";
 
 const Hero = () => {
   return (
-    <div className=" py-10">
+    <div className=" py-10 bg-gray-200 dark:bg-gray-800">
       <Layout>
         <div className="py-3 grid grid-cols-1 md:grid-cols-2 justify-between items-center">
           <div className="space-y-4">
