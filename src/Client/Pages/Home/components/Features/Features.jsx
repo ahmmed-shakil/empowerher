@@ -75,11 +75,11 @@ const Features = () => {
   );
 
   return (
-    <div className=" py-36">
+    <div className=" pt-14 md:pt-28 pb-14 md:pb-28">
       <Layout>
         <div className=" flex justify-center items-center">
           <div className=" text-center">
-            <h2 className=" text-3xl font-semibold">
+            <h2 className=" text-3xl font-semibold pb-8">
               Why <span style={gradientStyle}>EmpowerHer</span> education?
             </h2>
             <p className=" w-full px-0 md:px-96">
