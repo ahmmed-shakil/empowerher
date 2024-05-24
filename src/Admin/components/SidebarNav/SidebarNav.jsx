@@ -33,7 +33,7 @@ const SidebarNav = () => {
             ))}
           </div>
           <div>
-            <button className=" bg-secondary text-slate-100 rounded-md px-4 py-3 w-full">
+            <button className=" bg-secondary text-slate-100 rounded-md px-4 py-3 w-full mt-4 md:mt-0">
               LOGOUT
             </button>
           </div>

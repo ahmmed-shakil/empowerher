@@ -66,7 +66,7 @@ const Hero = () => {
               </NavLink>
             </div>
           </div>
-          <div className=" w-full md:w-5/6">
+          <div className=" w-full md:w-5/6 mt-10 md:mt-0">
             <img className="w-full rounded-md" src={image} alt="hero" />
           </div>
         </div>

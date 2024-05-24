@@ -27,7 +27,10 @@ const Missions = () => {
               worries you might have, we provide support around-the-clock.
             </p>
             <div className=" hidden md:block"></div>
-            <div className=" w-full md:w-3/4" style={{ marginTop: "-100px" }}>
+            <div
+              className=" w-full md:w-3/4 my-10 md:my-0"
+              style={{ marginTop: "-100px" }}
+            >
               <img src={image} alt="mission" className=" w-full" />
             </div>
             <p style={{ marginTop: "-100px" }}>
