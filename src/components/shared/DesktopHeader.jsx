@@ -5,6 +5,7 @@ import { Layout } from "./Layout/Layout";
 import { clientPages } from "../../Client/routers";
 import { gradientStyle } from "../../utils/gradientStyle";
 import { UserCircleIcon } from "@heroicons/react/24/solid";
+import { bg_image_style2 } from "../../utils/backgroundImageStyle";
 
 const DesktopHeader = () => {
   const [hoveredDropdown, setHoveredDropdown] = useState(null);
@@ -15,8 +16,8 @@ const DesktopHeader = () => {
 
   return (
     <div
-      className="hidden md:block sticky bg-gray-200 dark:bg-gray-800 top-0 shadow"
-      style={{ zIndex: 999999999999999 }}
+      className="hidden md:block sticky top-0 shadow z-50"
+      style={bg_image_style2}
     >
       <Layout>
         <div className="grid grid-cols-header py-7">

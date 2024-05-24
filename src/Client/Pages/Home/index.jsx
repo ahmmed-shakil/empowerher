@@ -10,6 +10,7 @@ import Missions from "./components/Missions/Missions";
 import JoinNow from "./components/JoinNow/JoinNow";
 import Contact from "./components/Contact/Contact";
 import DesktopFooter from "../../../components/DesktopFooter";
+import Ourcourses from "./components/OurCourses/Ourcourses";
 
 const ClientHome = () => {
   return (
@@ -17,6 +18,7 @@ const ClientHome = () => {
       <DesktopHeader />
       <Hero />
       <Features />
+      <Ourcourses />
       <ProjectReview />
       <SectionFour />
       <SectionFive />

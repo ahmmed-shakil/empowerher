@@ -8,6 +8,7 @@ import pinterest from "../images/Social/pinterest.png";
 import instagram from "../images/Social/facebook.png";
 import linkedin from "../images/Social/linkedin.png";
 import facebook from "../images/Social/facebook.png";
+import { bg_image_style2 } from "../utils/backgroundImageStyle";
 
 const DesktopFooter = () => {
   const gradientStyle = {
@@ -18,9 +19,9 @@ const DesktopFooter = () => {
   return (
     <div className="">
       {/* <hr className=" h-1 bg-primary w-full" /> */}
-      <div className=" bg-slate-100 text-secondary dark:bg-slate-800 dark:text-slate-100">
+      <div className=" bg-primary text-slate-100 text-secondary dark:bg-slate-800 dark:text-slate-100">
         <Layout>
-          <div className=" space-y-5 pt-5 md:pt-24">
+          <div className=" space-y-5 pt-5 md:pt-10">
             <div className=" grid grid-cols-1 lg:grid-cols-footer justify-between items-center md:items-start">
               <div className=" flex flex-col space-y-5">
                 <h2
@@ -34,7 +35,7 @@ const DesktopFooter = () => {
                   It is all about academic excellence and cultural diversity.
                 </p>
               </div>
-              <div className="space-y-3 mt-8 md:md-0">
+              <div className="space-y-3 mt-8 md:mt-0">
                 <h3 className=" text-xl text-center md:text-left">
                   Contact us
                 </h3>
@@ -61,7 +62,7 @@ const DesktopFooter = () => {
                   </h4>
                 </div>
               </div>
-              <div className=" flex flex-col space-y-3 mt-8 md:md-0">
+              <div className=" flex flex-col space-y-3 mt-8 md:mt-0">
                 <h2 className="text-xl text-center md:text-left">
                   <span>Legals</span>
                 </h2>
@@ -110,12 +111,15 @@ const DesktopFooter = () => {
             {/* <hr className="hidden md:block h-1 bg-primary w-full" /> */}
           </div>
         </Layout>
-        <div className=" hidden md:grid grid-cols-3 items-center justify-between gradient-background text-slate-200 px-8 mt-5">
+        <div
+          s
+          className=" hidden md:grid grid-cols-3 items-center justify-between bg-slate-800 text-slate-200 px-8 mt-5"
+        >
           <p>Lisence: Demo lisence</p>
           <p className=" text-center">copyright &copy; 2024. EmpowerHer</p>
           <p className=" text-right">v 1.0.0</p>
         </div>
-        <div className=" grid md:hidden grid-cols-1 items-center justify-between gradient-background text-slate-200 px-8 mt-5">
+        <div className=" grid md:hidden grid-cols-1 items-center justify-between bg-slate-800 text-slate-200 px-8 mt-5">
           <p className=" text-center text-sm">
             copyright &copy; 2024. EmpowerHer
           </p>

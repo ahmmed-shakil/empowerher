@@ -9,6 +9,7 @@ import img6 from "../../../../../images/Features/6.png";
 import img7 from "../../../../../images/Features/7.png";
 import img8 from "../../../../../images/Features/8.png";
 import { gradientStyle } from "../../../../../utils/gradientStyle";
+import { bg_image_style } from "../../../../../utils/backgroundImageStyle";
 
 const Features = () => {
   const features = [
@@ -75,7 +76,7 @@ const Features = () => {
   );
 
   return (
-    <div className=" pt-14 md:pt-28 pb-14 md:pb-28">
+    <div className=" pt-14 md:pt-28 pb-14 md:pb-28" style={bg_image_style}>
       <Layout>
         <div className=" flex justify-center items-center">
           <div className=" text-center">
