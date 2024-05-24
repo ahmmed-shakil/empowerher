@@ -5,7 +5,7 @@ import { gradientStyle } from "../../../../../utils/gradientStyle";
 
 const Missions = () => {
   return (
-    <div className="pb-20">
+    <div className="pb-20 pt-10">
       <Layout>
         <div className="flex justify-center items-center">
           <div className="text-center">

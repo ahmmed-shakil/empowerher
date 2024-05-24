@@ -3,10 +3,11 @@ import { Layout } from "../../../../../components/shared/Layout/Layout";
 import image from "../../../../../images/hero.jpg";
 import { NavLink } from "react-router-dom";
 import { gradientStyle } from "../../../../../utils/gradientStyle";
+import { bg_image_style } from "../../../../../utils/backgroundImageStyle";
 
 const Hero = () => {
   return (
-    <div className=" py-10 bg-gray-200 dark:bg-gray-800">
+    <div className=" py-10 bg-gray-200 dark:bg-gray-800" style={bg_image_style}>
       <Layout>
         <div className="py-3 grid grid-cols-1 md:grid-cols-2 justify-between items-center">
           <div className="space-y-4">

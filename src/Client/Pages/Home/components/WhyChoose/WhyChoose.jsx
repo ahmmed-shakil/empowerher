@@ -1,5 +1,6 @@
 import React from "react";
 import { Layout } from "../../../../../components/shared/Layout/Layout";
+import { bg_image_style } from "../../../../../utils/backgroundImageStyle";
 
 const WhyChoose = () => {
   const gradientStyle = {
@@ -8,7 +9,7 @@ const WhyChoose = () => {
     color: "transparent",
   };
   return (
-    <div className=" pb-36 pt-16">
+    <div className=" pb-36 pt-16" style={bg_image_style}>
       <Layout>
         <div className=" flex justify-center items-center">
           <div className=" text-center">
