@@ -112,12 +112,12 @@ const DesktopFooter = () => {
         </Layout>
         <div className=" hidden md:grid grid-cols-3 items-center justify-between gradient-background text-slate-200 px-8 mt-5">
           <p>Lisence: Demo lisence</p>
-          <p className=" text-center">copyright &copy; 2023. EmpowerHer</p>
+          <p className=" text-center">copyright &copy; 2024. EmpowerHer</p>
           <p className=" text-right">v 1.0.0</p>
         </div>
         <div className=" grid md:hidden grid-cols-1 items-center justify-between gradient-background text-slate-200 px-8 mt-5">
           <p className=" text-center text-sm">
-            copyright &copy; 2023. EmpowerHer
+            copyright &copy; 2024. EmpowerHer
           </p>
         </div>
       </div>

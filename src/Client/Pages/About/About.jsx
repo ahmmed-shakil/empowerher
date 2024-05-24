@@ -21,14 +21,14 @@ const About = () => {
               Welcome to EmpowerHer, an online tutoring company dedicated to
               helping students achieve academic success.
             </p>
-            <p className=" text-primary text-lg font-light">
+            <p className="  text-lg font-light">
               We offer a platform where students can upload their assignments
               and our highly qualified tutors will complete the assignments on
               their behalf. Our tutors are experts in their respective fields
               and are committed to delivering high-quality work within the given
               timeframe.
             </p>
-            <p className=" text-primary text-lg font-light">
+            <p className="  text-lg font-light">
               At EmpowerHer, we understand the challenges that students face
               when it comes to completing assignments and achieving academic
               success. We aim to provide a solution that not only helps students
@@ -44,13 +44,13 @@ const About = () => {
                 <img src={image} alt="about-us" className=" w-full" />
               </div>
               <div className=" space-y-5">
-                <p className=" text-primary text-lg font-light">
+                <p className=" text-lg font-light">
                   We strive to provide our students with an exceptional
                   experience, and we continuously work to improve our services.
                   Our team is dedicated to ensuring that our students receive
                   the highest level of support and assistance.
                 </p>
-                <p className=" text-primary text-lg font-light">
+                <p className=" text-lg font-light">
                   We strive to provide our students with an exceptional
                   experience, and we continuously work to improve our services.
                   Our team is dedicated to ensuring that our students receive
